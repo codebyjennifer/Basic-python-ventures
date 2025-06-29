@@ -2,7 +2,7 @@
 A collection of beginner python projects built as part of my coding journey.
 The key focus is on foundational concepts like variables, data types, loops and conditionals, functions, lists, dictionaries, etc.
 # Projects included
-Number guessing game
+Word guessing game
 Tip calculator
 Rock Paper Scissors
 More coming soon!
