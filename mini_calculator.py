@@ -29,28 +29,31 @@ operations = {
     "*": multiply,
     "/": divide
 }
-repeat_again = True
-first_number = float(input("What's the first number? "))
-while repeat_again:
-    operation = input("Choose an operation: \n+ \n- \n* \n/ \n")
-    second_number = float(input("What's  the next number? "))
-    for each_operation in operations:
-        if operation == each_operation:
-            result = operations[each_operation](first_number, second_number)
-            print(f"{first_number} {operation} {second_number} = {result}")
-            continue_calculation = input(
-                f"Type 'y' to continue calculating with {result}, or type 'n' to start a new calculation, 'quit' to exit: ").lower()
-            if continue_calculation == "y":
-                first_number = result
-            elif continue_calculation == "n":
-                print("\n" * 40)
-                first_number = float(input("What's the first number? "))
-            elif continue_calculation == "quit":
-                print("Goodbye!")
-                repeat_again = False
-            else:
-                print("You entered the wrong input.")
-                repeat_again = False
+def calculator():
+    """The function helps the user perform basic calculations like addition, subtraction, multiplication and division."""
+    repeat_again = True
+    first_number = float(input("What's the first number? "))
+    while repeat_again:
+        operation = input("Choose an operation: \n+ \n- \n* \n/ \n")
+        second_number = float(input("What's  the next number? "))
+        for each_operation in operations:
+            if operation == each_operation:
+                result = operations[each_operation](first_number, second_number)
+                print(f"{first_number} {operation} {second_number} = {result}")
+                continue_calculation = input(
+                    f"Type 'y' to continue calculating with {result}, or type 'n' to start a new calculation, 'quit' to exit: ").lower()
+                if continue_calculation == "y":
+                    first_number = result
+                elif continue_calculation == "n":
+                    print("\n" * 40)
+                    first_number = float(input("What's the first number? "))
+                elif continue_calculation == "quit":
+                    print("Goodbye!")
+                    repeat_again = False
+                else:
+                    print("You entered the wrong input.")
+                    repeat_again = False
+calculator()
 
 
 
