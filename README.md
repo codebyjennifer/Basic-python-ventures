@@ -5,6 +5,9 @@ The key focus is on foundational concepts like variables, data types, loops and 
 Word guessing game
 Tip calculator
 Rock Paper Scissors
+Mini Calculator
+Bidding Game
+Blackjack
 More coming soon!
 # Getting Started:
 Make sure Python 3 is installed on your system.
