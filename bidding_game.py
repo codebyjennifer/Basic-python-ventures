@@ -29,4 +29,4 @@ while more_bidders:
                 highest_bid = bid_amount
                 winner = each_item
         more_bidders = False
-        print(f'The winner is {winner} with a bid of Rs{highest_bid}!')
+        print(f'The winner is {winner} with a bid of Rs{highest_bid}. Congrats!')
