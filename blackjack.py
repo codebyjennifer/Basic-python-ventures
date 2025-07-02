@@ -32,7 +32,7 @@ while restart:
 
         computer_cards += computer_random_card
         computer_score = sum(computer_cards)
-        if computer_score <15:
+        while computer_score <17:
             computer_cards += random.choice(cards)
         print(f"    Computer's first card: {computer_cards[0]}")
         new_card = True
