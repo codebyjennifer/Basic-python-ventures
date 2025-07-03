@@ -9,6 +9,7 @@ Mini Calculator
 Bidding Game
 Blackjack
 Treasure Island
+Number guessing game
 More coming soon!
 # Getting Started:
 Make sure Python 3 is installed on your system.
