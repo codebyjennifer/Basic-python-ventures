@@ -8,7 +8,6 @@ Rock Paper Scissors
 Mini Calculator
 Bidding Game
 Blackjack
-Treasure Island
 Number guessing game
 Caesar Cipher Project
 Hangman Game
