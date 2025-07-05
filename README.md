@@ -6,6 +6,7 @@ Word guessing game
 Tip calculator
 Rock Paper Scissors
 Mini Calculator
+Love Calculator
 Bidding Game
 Blackjack
 Number guessing game
@@ -24,4 +25,3 @@ This repo helps me stay consistent, track my progress, and apply what I learn in
 # Feedback and Suggestions:
 Feel free to share ideas, corrections, or feedback.
 This is just the beginning of my coding journey!!
-
