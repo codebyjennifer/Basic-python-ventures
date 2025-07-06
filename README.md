@@ -23,4 +23,4 @@ I’m learning Python by building small, hands-on projects.
 This repo helps me stay consistent, track my progress, and apply what I learn in a practical way.
 # Feedback and Suggestions:
 Feel free to share ideas, corrections, or feedback.
-This is just the beginning of my coding journey!!
+This is just the beginning of my coding journey!
