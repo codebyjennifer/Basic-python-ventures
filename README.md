@@ -7,9 +7,9 @@ The key focus is on foundational concepts like variables, data types, loops and 
 3.Word guessing game
 4.Mini Calculator
 5.Bidding Game
-6.Blackjack
+6.Caesar Cipher Project
 7.Number guessing game
-8.Caesar Cipher Project
+8.Blackjack
 9.Hangman Game
 More coming soon!
 # Getting Started:
