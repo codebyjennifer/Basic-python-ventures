@@ -11,7 +11,7 @@ The key focus is on foundational concepts like variables, data types, loops and 
 7.Number guessing game
 8.Blackjack
 9.Hangman Game
-More coming soon!
+More coming soon!!
 # Getting Started:
 Make sure Python 3 is installed on your system.
 Download this repository or clone it using Git.
